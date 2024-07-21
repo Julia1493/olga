@@ -1,0 +1,185 @@
+@font-face{
+    font-family: "Dudka";
+    src: url("./Dudka\ Regular.ttf");
+}
+header{
+    display: flex;
+    background-color: #133215;
+    justify-content: space-between;
+
+
+}
+header>nav>ul{
+    display: flex; 
+    list-style: none;
+    gap: 30px;
+    color: white;
+    font-family: "Dudka";
+    font-size: 30px;
+}
+#mobile-menu{
+    display: none;
+}
+#mobile-menu>ul{
+    list-style: none; 
+    background-color: #275B2B;
+    display: flex;
+    font-family: "Dudka";
+    color: white;
+    font-size: 30px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 20px;
+    padding: 20px;
+    margin: 0;
+}
+body{
+    margin: 0px;
+}
+#tel{
+    color: white;
+    font-family: "Dudka";
+    font-size: 30px;
+    padding-right: 30px;
+}
+#burger{
+    display: none;
+    cursor: pointer;
+}
+#first{
+    background-image: url("images/fon.jpeg");
+    background-size: cover;
+    min-height: 700px;
+    width: 100%;
+    background-position: bottom ;
+    border-bottom: 3px solid black;
+}
+#first-text{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: center;
+}
+h1{
+    font-family: "Dudka";
+    font-size: 97px; 
+    margin: 0;
+    width: 500px;
+    
+}
+#first-text>p{
+    font-family: "Dudka";
+    font-size: 34px;
+    width: 500px;
+}
+#first-text>button{
+    font-family: "Dudka";
+    width: 270px;
+    height: 69px;
+    background-color: #133215;
+    color: white;
+    font-size: 31px;
+}
+
+#second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 30px;
+    border-bottom: 3px solid #133215;
+
+    
+}
+#second-text>h3{
+    font-family: "Dudka";
+    font-size: 46px;
+    text-align: center;
+}
+#second-text>p{
+    font-family: "Dudka";
+    font-size: 22px;
+    width: 500px;
+}
+#Olga{
+    width: 501px;
+    height: 699px;
+    margin-bottom: 30px;
+
+}
+#third{
+   background-image: url("images/Group_11.png"); 
+   background-color: #133215;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 30px 0;
+
+   
+}
+#h1{
+    font-family: "Dudka";
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    
+}
+#third-text{
+    color: white;
+    font-family: "Dudka";
+    font-size: 24px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+
+    
+
+}
+#foto{
+    width: 550px;
+    
+
+}
+#third-ul>li{
+    margin-bottom: 40px;
+    
+}
+
+.opened{
+    display: block !important;
+}
+
+@media screen and (max-width : 600px) {
+    header>nav{
+        display: none;
+    }
+    #tel{
+        display: none;
+    }
+    #burger{
+        display: block;
+    }
+    header{
+        justify-content: flex-end;
+        padding: 20px;
+    }
+    h1{
+        text-align: center;
+        
+    }
+    #first-text>p{
+        text-align: center;
+    }
+    #first-text{
+        align-items: center;
+        padding-left: 0;
+    }
+
+}
+
+
+
+
+
