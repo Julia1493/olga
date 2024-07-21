@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Dudka";
-    src: url("./Dudka\ Regular.ttf");
+    src: url("./fonts/Dudka\ Regular.ttf");
 }
 header{
     display: flex;
