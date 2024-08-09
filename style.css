@@ -133,9 +133,9 @@ h1{
     width: 500px;
     display: flex;
     flex-direction: column;
-
-    
-
+}
+h3{
+    text-align: center;
 }
 #foto{
     width: 550px;
@@ -149,6 +149,123 @@ h1{
 
 .opened{
     display: block !important;
+}
+#fourth{
+    background: linear-gradient(rgba(243, 232, 211, 1), rgb(241, 239, 239)) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    gap: 100px;
+    height: 900px;
+
+
+}
+#h4{
+    font-family: "Dudka"; 
+    font-size: 46px;
+    margin: 0;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card{
+   width: 435px;
+   height: 475px; 
+   background-color: white;
+   
+}
+.card>img{
+    width: 435px;
+    height: 300px;
+}
+.card>p{
+    font-family: "Dudka";
+    height: 175px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    padding-top: 40px;
+}
+#but2{
+    width: 270px;
+    height: 70px;
+    background-color: #133215;
+    color: white;
+    font-family: "Dudka";
+    font-size: 31px;
+}
+
+.bold{
+    font-weight: 700;
+}
+#feedbacks{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.feedback-active{
+    width: 548px;
+    height: 438px;
+    background-color: #133215;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+.feedback{
+    width: 83px;
+    height: 361px;
+    background-color: #133215;
+
+}
+#h5{
+    font-family: "Dudka"; 
+    font-size: 46px; 
+}
+.feedback-active>img{
+    width: 150px;
+    height: 155px;
+}
+.feedback-active>p{
+    font-family: "Dudka";
+    font-size: 24px;
+    text-align: center;
+    color: white;
+    width: 450px;
+}
+#fifth{
+    background-image: url("images/овощи.png");
+    background-size: cover;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-position: bottom;
+}
+.point{
+    width: 16px;
+    height: 16px;
+    background-color: #133215;
+    border-radius: 16px;
+}
+#points{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+}
+.point-activ{
+    background-color: #133215;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width : 600px) {
