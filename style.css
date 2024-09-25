@@ -267,6 +267,73 @@ h3{
     height: 20px;
     border-radius: 20px;
 }
+.sixth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+#page1{
+    background-color: #133215;
+    width: 700px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 10px black;
+}
+.answers-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+#img3{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    
+}
+#qtitle{
+    color: white;
+    font-family: "Dudka";
+    font-size: 24px;
+}
+.answers{
+    color: white;
+    font-family: "Dudka";
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#next{
+    font-size: 20px;
+    width: 200px;
+    height: 40px;
+    font-family: "Dudka";
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.answer>input{
+    margin-right: 15px;
+    width: 20px;
+    height: 20px;
+}
+.own-answer{
+    display: none;
+}
+.own-answer>input{
+    font-family: "Dudka";
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+}
 
 @media screen and (max-width : 600px) {
     header>nav{
@@ -293,6 +360,47 @@ h3{
         align-items: center;
         padding-left: 0;
     }
+    .cards{
+        flex-direction: column;
+    }
+    #fourth{
+        height: auto;
+    }
+.card{
+    width: 375px;
+}
+.card>img{
+    width: 375px;
+    height: 250px;
+}
+.feedback-active{
+    width: 375px;
+    height: 400px;
+}
+.feedback-active>p{
+    width: 350px;
+}
+.feedback{
+    display: none;
+}
+#foto{
+    display: none;
+}
+#h2{
+    width: 375px;
+    margin: auto;
+}
+#Olga{
+    width: 100%;
+}
+#second{
+    flex-direction: column;
+}
+#second-text>p{
+    width: 375px;
+    text-align: center;
+
+}
 
 }
 
