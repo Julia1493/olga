@@ -351,14 +351,25 @@ h3{
     }
     h1{
         text-align: center;
-        
+        font-size: 50px; 
+        width: 100%;
+    }
+    #first{
+        background-position: center center;
+        background-image: url("./images/Fon123.jpg");
     }
     #first-text>p{
         text-align: center;
+        gap: 25px;
+        font-size: 25px;
+        width: 100%;
     }
     #first-text{
         align-items: center;
         padding-left: 0;
+        width: 100%;
+        padding-top: -150px;
+        gap: 30px;
     }
     .cards{
         flex-direction: column;
@@ -366,41 +377,44 @@ h3{
     #fourth{
         height: auto;
     }
-.card{
-    width: 375px;
-}
-.card>img{
-    width: 375px;
-    height: 250px;
-}
-.feedback-active{
-    width: 375px;
-    height: 400px;
-}
-.feedback-active>p{
-    width: 350px;
-}
-.feedback{
-    display: none;
-}
-#foto{
-    display: none;
-}
-#h2{
-    width: 375px;
-    margin: auto;
-}
-#Olga{
-    width: 100%;
-}
-#second{
-    flex-direction: column;
-}
-#second-text>p{
-    width: 375px;
-    text-align: center;
+    .card{
+        width: 375px;
+    }
+    .card>img{
+        width: 375px;
+        height: 250px;
+    }
+    .feedback-active{
+        width: 375px;
+        height: 400px;
+    }
+    .feedback-active>p{
+        width: 350px;
+    }
+    .feedback{
+        display: none;
+    }
+    #foto{
+        display: none;
+    }
+    #h2{
+        width: 375px;
+        margin: auto;
+    }
+    #Olga{
+        width: 100%;
+    }
+    #second{
+        flex-direction: column;
+    }
+    #second-text>p{
+        width: 375px;
+        text-align: center;
 
-}
+    }
+    .arrow{
+        display: none;
+    }
 
 }
 
