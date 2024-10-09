@@ -88,8 +88,8 @@ h1{
     align-items: center;
     justify-content: space-around;
     gap: 10px;
-    margin-top: 30px;
     border-bottom: 3px solid #133215;
+    background: linear-gradient(rgba(243, 232, 211, 1), rgb(241, 239, 239)) ;
 
     
 }
@@ -97,6 +97,7 @@ h1{
     font-family: "Dudka";
     font-size: 46px;
     text-align: center;
+    margin: 0;
 }
 #second-text>p{
     font-family: "Dudka";
@@ -107,6 +108,7 @@ h1{
     width: 501px;
     height: 699px;
     margin-bottom: 30px;
+    margin-top: 30px;
 
 }
 #third{
@@ -247,6 +249,7 @@ h3{
     flex-direction: column;
     align-items: center;
     background-position: bottom;
+    border-bottom: 3px solid black;
 }
 .point{
     width: 16px;
@@ -272,6 +275,7 @@ h3{
     align-items: center;
     justify-content: center;
     height: 700px;
+    background: linear-gradient(rgba(243, 232, 211, 1), rgb(241, 239, 239)) ;
 }
 #page1{
     background-color: #133215;
