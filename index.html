@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+        (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();
+        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+        (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    
+        ym(98862385, "init", {
+            clickmap:true,
+            trackLinks:true,
+            accurateTrackBounce:true,
+            webvisor:true
+        });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/98862385" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -13,12 +30,13 @@
     <header>
         <nav>
            <ul>
-                <li>Обо мне</li>
-                <li>Услуги</li>
-                <li>Отзывы</li>
+                <li><a href="#second">Обо мне</a></li>
+                <!-- <li>Услуги</li> -->
+                <li><a href="#feedbacks">Отзывы</a></li>
+                <li><a href="#sixth">Тест</a></li>
            </ul> 
         </nav> 
-        <p id="tel">89998365781</p>
+        <p id="tel">+79089438489</p>
         <div id="burger"><img  src="images/burger.png" alt=""></div>
     </header>
     <nav id="mobile-menu">
@@ -107,26 +125,21 @@
         </div>
 
     </section>
-    <section class="sixth">
+    <section class="sixth" id="sixth">
         <div id="page1">
             <h3 id="qtitle">Завтракаете ли вы по утрам?</h3>
             <div class="answers-img">
                 <div class="answers">
-                    <!-- <div class="answer"><input type="radio" name="answer" id="answer1"><label for="answer1">Да</label></div>
-                    <div class="answer"><input type="radio" name="answer" id="answer2"><label for="answer2">Нет</label></div>
-                    <div class="answer"><input type="radio" name="answer" id="answer3"><label for="answer3">Да, в обед</label></div>
-                    <div class="answer"><input type="radio" name="answer" id="answer4"><label for="answer4">Иногда</label></div>
-                    <div class="answer"><input type="radio" name="answer" id="answer5"><label for="answer5">Свой ответ</label></div>
-                    -->
-                    <!-- <div class="own-answer">
-                        <input type="text" placeholder="Впишите свой ответ">
-                    </div> -->
                 </div>
                 <img id="img3" src="images/zavtrak-kofe-narezka-vypechka-sok-apelsinovyi-miusli-iagody.png" alt="">
             </div>
             <button id="next" >Далее</button>
         </div>
     </section>
+
+    <footer>
+
+    </footer>
     <script src="./script.js"></script>
 </body>
 </html>

@@ -338,6 +338,12 @@ h3{
     height: 30px;
     font-size: 15px;
 }
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #1a441c;
+    margin-top: 5px;
+}
 
 @media screen and (max-width : 600px) {
     header>nav{
@@ -419,6 +425,16 @@ h3{
     .arrow{
         display: none;
     }
+    #page1{
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .answers-img{
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
 
 }
 
