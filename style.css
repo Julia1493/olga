@@ -9,6 +9,10 @@ header{
 
 
 }
+a,a:link,a:visited{
+    color: white;
+    text-decoration: none;
+}
 header>nav>ul{
     display: flex; 
     list-style: none;
