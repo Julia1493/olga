@@ -21,9 +21,55 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
     // Сбор сообщения
-    $message = "Новая заявка:\n\n";
-    $message .= "Имя: " . htmlspecialchars($name) . "\n";
-    $message .= "Телефон: " . htmlspecialchars($phone) . "\n";
+    $message = "
+    <html>
+    <head>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                line-height: 1.6;
+                color: #333;
+            }
+            .container {
+                width: 100%;
+                max-width: 600px;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+            }
+            .header {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .content {
+                font-size: 16px;
+            }
+            .footer {
+                text-align: center;
+                font-size: 14px;
+                color: #777;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class='container'>
+            <div class='header'>
+                <h2>Новая заявка с сайта</h2>
+            </div>
+            <div class='content'>
+                <p><strong>Имя:</strong> " . htmlspecialchars($name) . "</p>
+                <p><strong>Телефон:</strong> " . htmlspecialchars($phone) . "</p>
+            </div>
+            <div class='footer'>
+                <p>Это письмо отправлено автоматически, не отвечайте на него.</p>
+            </div>
+        </div>
+    </body>
+    </html>";
+
 
     // Отправка письма
     $headers = [
